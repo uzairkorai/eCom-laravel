@@ -16,57 +16,50 @@ class ProductSeeder extends Seeder
     {
         DB::table('products')->insert([
            [
-            'name' => 'Oppo F21 Pro 5G',
-            'price' => '79,999',
-            'description' => 'A smartphone with, 8GB ram and much more features',
-            'category' => 'mobile',
-            'gallery' => 'https://images.app.goo.gl/xMhwgi2FbCrXAKR6A'
-           ],
-           [
             'name' => 'Samsung Galaxy A53',
             'price' => '85,999',
             'description' => 'A smartphone with v ram and much more features',
-            'category' => 'mobile',
-            'gallery' => 'https://images.app.goo.gl/ewgk4iSxVauSvpyw9'
+            'category' => 'sumsung mobile',
+            'gallery' => 'https://www.whatmobile.com.pk/admin/images/Samsung/SamsungGalaxyA53-b.jpg'
            ],
            [
             'name' => 'Xiaomi Redmi 10C 128GB',
             'price' => '32,999',
             'description' => 'A smartphone with 4gb ram and much more features',
-            'category' => 'mobile',
-            'gallery' => 'https://images.app.goo.gl/EmrKxXNSY6iRQ12s7'
+            'category' => 'Xiaomi mobile',
+            'gallery' => 'https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-10c.jpg'
            ],
            [
             'name' => 'Apple iPhone 13 Pro Max',
             'price' => '319,700',
             'description' => 'A smartphone with 6GB ram and much more features',
-            'category' => 'mobile',
-            'gallery' => 'https://images.app.goo.gl/V5QecckNuS8DKGN19'
+            'category' => 'Apple mobile',
+            'gallery' => 'https://i0.wp.com/buybest.pk/wp-content/uploads/2022/01/ii.jpg?fit=1080%2C810&ssl=1'
            ],
            [
             'name' => 'Apple iPhone 13 Pro',
             'price' => '297,999',
             'description' => 'A smartphone with 6GB ram and much more features',
-            'category' => 'mobile',
-            'gallery' => 'https://images.app.goo.gl/Mb2YGgCWikCgNg188'
+            'category' => 'Apple mobile',
+            'gallery' => 'https://stall.pk/wp-content/uploads/2022/02/iphone-13-pro-Pakistan-Stall.pk_.jpg'
            ], [
             'name' => 'Apple iPhone 13',
             'price' => 'Rs. 233,799',
             'description' => 'A smartphone with 6GB ram and much more features',
-            'category' => 'mobile',
-            'gallery' => 'https://images.app.goo.gl/bKJTj3uxv2BwkMSR6'
+            'category' => 'Apple mobile',
+            'gallery' => 'https://www.pakmobizone.pk/wp-content/uploads/2021/10/Apple-iphone-13-Pink-2.png'
            ], [
             'name' => 'Apple iPhone 12 Pro Max',
             'price' => '235,999',
             'description' => 'A smartphone with 6GB ram and much more features',
-            'category' => 'mobile',
-            'gallery' => 'https://images.app.goo.gl/mmKpJLskBDKzWj4H9'
+            'category' => 'Apple mobile',
+            'gallery' => 'https://images.priceoye.pk/apple-iphone-12-pro-max-pakistan-priceoye-jqig7.jpg'
            ], [
             'name' => 'Apple iPhone 12 Pro',
             'price' => '220,899',
             'description' => 'A smartphone with 6GB ram and much more features',
-            'category' => 'mobile',
-            'gallery' => 'https://images.app.goo.gl/MQuKw8JnyLG7M8dJA'
+            'category' => 'Apple mobile',
+            'gallery' => 'https://newmobiles.com.pk/wp-content/uploads/2020/10/Apple-iPhone-12-Pro-Price-in-Pakistan.jpg'
            ],
         ]);
     }
