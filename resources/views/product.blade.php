@@ -41,5 +41,16 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+      <div class="trending-wrapper">
+        <h3>Trending Products</h3>
+        @foreach ($products as $item)
+        <div class="trending-item">
+            <img class="trending-image" src="{{$item['gallery']}}">
+            <div class="">
+            <h3>{{$item['category']}}</h3>
+        </div>
+          </div>
+          @endforeach
+      </div>
 </div>
 @endsection

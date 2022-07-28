@@ -19,12 +19,12 @@
     {{View::make('footer')}}
 </body>
 <script>
-    $(document).ready(function()
-    {
-        $("button").click(function(){
-            alert("all set");
-        })
-    })
+    // $(document).ready(function()
+    // {
+    //     $("button").click(function(){
+    //         alert("all set");
+    //     })
+    // })
 </script>
 <style>
     .custom-login {
@@ -39,6 +39,16 @@
     }
     .slider-text {
         background-color: #35443585 !important;
+    }
+    .trending-image {
+        height: 100px;
+    }
+    .trending-item {
+        float: left;
+        width: 20%;
+    }
+    .trending-wrapper {
+        margin: 30px;
     }
 </style>
 </html>

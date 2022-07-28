@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('login');
 });
 
+// Route::post('/login', function () {
+//     return view('product');
+// });
+
 // Route::get('/product',['ProductController::index']);
 Route::get('/product', [App\Http\Controllers\ProductController::class, 'index']);
 
