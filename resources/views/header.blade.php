@@ -18,14 +18,8 @@ if(Session::has('user'))
           <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Orders</a>
+          <a class="nav-link" href="myorders">Orders</a>
         </li>
-        {{-- <li class="nav-item">
-            <a class="nav-link" href="/product">Products</a>
-          </li> --}}
-        {{-- <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li> --}}
       </ul>
       <form class="form-inline my-2 navbar-left navbar-form my-lg-0">
         <input class="search-box form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
