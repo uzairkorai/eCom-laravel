@@ -32,7 +32,7 @@ if(Session::has('user'))
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Cart({{$total}})</a></li>
+        <li><a href="/cartlist">Cart({{$total}})</a></li>
         @if(Session::has('user'))
         <li class="dropdown">
             <a class="" data-toggle="dropdown" href="#">{{Session::get('user')['name']}}
